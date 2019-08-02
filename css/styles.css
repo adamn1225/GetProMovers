@@ -21,14 +21,14 @@ a:hover {
 .pro-header {
   background-color: #000;
   margin:0;
-  height: 100%;
-  padding:30px 0 30px;
+  height: 10vh;
   width: 100%;
-  position: relative;
 }
 
 .pro-logo {
   color:white;
+  text-overflow: inherit;
+  padding-top: 25px;
 }
 
 .pro {
@@ -36,21 +36,25 @@ a:hover {
 }
 
 .top-section {
-  display: inline-flex;
 }
 
-.inner-left {
-  float: left;
+@media only screen and (max-width: 600px) {
+  .top-section {
+    display: inline-block;
+  }
+}
+
+.inner-right {
   margin-top: 70px;
-  padding-left: 120px !important;
 }
 
 #regForm {
   background-color: #ffffff;
-  margin-left: 15%;
-  margin-right: 0;
+  margin-top:40px;
+  margin-left: 6%;
+  margin-right: 29px;
   font-family: Raleway;
-  padding: 40px;
+  padding: 40px 40px 50px;
   width: 40%;
   min-width: 300px;
 }
@@ -116,27 +120,24 @@ button:hover {
 
 .moving-steps {
   background-color:#b8c9d9;
-  display: inline-flex;
   width: 100%;
   height: 100%;
   margin-top: 30px;
-  margin-right: 0;
   padding-left: 10%;
+  padding-top:3%;
+  padding-bottom: 3%;
 }
 
-.step1 {
-  margin:0 100px 20px;
-  padding:30px 20px 20px;
+.moving-steps > div {
+  display: inline-flex;
 }
-.step2 {
-  margin:0 100px 20px;
-  padding:20px;
-}
-.step3 {
-  margin:0 100px 20px;
-  padding:20px;
+
+@media only screen and (max-width: 600px) {
+  .moving-steps > div {
+    display: inline-block;
+  }
 }
 
 .about-us {
-  margin:30px 0 30px;
+  margin: 30px 0 30px;
 }
