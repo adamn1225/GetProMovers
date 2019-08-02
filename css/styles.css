@@ -36,6 +36,7 @@ a:hover {
 }
 
 .top-section {
+ margin-bottom: 300px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -45,18 +46,29 @@ a:hover {
 }
 
 .inner-right {
-  margin-top: 70px;
+  padding-top: 70px;
 }
 
 #regForm {
-  background-color: #ffffff;
-  margin-top:40px;
+  background-color: rgba(0, 0, 0, 0.50);
+  margin-top:10px;
   margin-left: 6%;
-  margin-right: 29px;
   font-family: Raleway;
-  padding: 40px 40px 50px;
+  padding: 40px 40px 50px 60px;
   width: 40%;
   min-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  #regForm {
+    background-color: rgba(0, 0, 0, 0.50);
+    margin-top:10px;
+    margin-left: 6%;
+    font-family: Raleway;
+    padding: 40px 40px 50px 49px;
+    width: 40%;
+    min-width: 325px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -68,11 +80,21 @@ a:hover {
 
 input {
   padding: 10px;
-  width: 250px;
-  margin:0;
+  width: 320px;
   font-size: 17px;
   font-family: Raleway;
   border: 1px solid #aaaaaa;
+}
+
+@media only screen and (max-width: 1200px) {
+  input {
+    padding: 10px;
+    width: 210px;
+    margin-left:5%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
 }
 
 /* Mark input boxes that gets an error on validation: */
@@ -128,7 +150,7 @@ button:hover {
   background-color:#b8c9d9;
   width: 100%;
   height: 100%;
-  margin-top: 30px;
+  margin-top: 0px;
   padding-left: 10%;
   padding-top:3%;
   padding-bottom: 3%;
