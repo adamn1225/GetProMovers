@@ -7,32 +7,28 @@ li {
   text-decoration: none;
 }
 
-a {
+.pro-logo {
+  color:black;
+  font-size: 28px;
+  padding: 25px 25px 25px 10px;
+  margin-left: 20px;
+}
+
+.pro-logo > a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-a:hover {
+.pro-logo a:hover {
   text-decoration: none;
-  color: orange;
-}
-
-.pro-header {
-  background-color: #fff;
-  margin:0;
-  height: 10vh;
-  width: 100%;
-}
-
-.pro-logo {
-  color:black;
-  text-overflow: inherit;
-  padding-top: 25px;
+  color: black;
 }
 
 .pro {
   color: #267bea;
+  font-size: 32px;
+  text-decoration: underline;
 }
 
 .top-section {
@@ -48,18 +44,18 @@ a:hover {
 .top-img {
   background-image: url('../images/main-image.jpg');
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
   .top-img {
-    height:80vh;
+    height:120vh;
   }
 }
 
 @media only screen and (max-width: 360px) {
   .top-img {
-    height:110vh;
+    height:120vh;
   }
 }
 
@@ -165,16 +161,13 @@ button:hover {
   background-color: #267bea;
 }
 
-.about-us {
-  margin: 30px 0 30px;
-}
-
 .moving-steps {
-  background-color:#b8c9d9;
+  background-color:#267bea;
+  color: white;
   width: 100%;
   height: 100%;
   margin-top: 0px;
-  padding-left: 10%;
+  padding-left: 4%;
   padding-top:3%;
   padding-bottom: 3%;
 }
@@ -187,4 +180,30 @@ button:hover {
   .moving-steps > div {
     display: inline-block;
   }
+}
+
+.about-us {
+  margin: 30px 0 30px;
+}
+
+.pro-guides {
+  display: inline-flex;
+  padding: 90px 0 40px;
+  margin:0;
+}
+
+.pro-guides2 {
+  display: inline-flex;
+  padding: 0 0 90px;
+  margin:0;
+}
+
+footer {
+  padding-top:30px;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-cta > button {
+  border-radius: 6px ;
 }
