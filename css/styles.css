@@ -92,8 +92,9 @@ li {
 @media only screen and (max-width: 360px) {
   .top-img {
     background-image: url('../images/moving.jpeg');
-    height: 140vh;
+    background-repeat: no-repeat;
     background-position: left;
+      height: 140vh;
   }
 }
 
