@@ -230,9 +230,23 @@ button:hover {
   margin: 0;
 }
 
+.pro-guides a{
+  text-decoration: none;
+  color: black;
+}
+
+.pro-guides a:hover{
+  text-decoration: none;
+  color: #267bea;
+}
+
 .pro-guides img {
   width: 70%;
   height: auto;
+}
+
+.pro-guides img:hover {
+  opacity: 0.3;
 }
 
 .pro-guides2 {
@@ -240,9 +254,23 @@ button:hover {
   margin: 0;
 }
 
+.pro-guides2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.pro-guides2 a:hover{
+  text-decoration: none;
+  color: #267bea;
+}
+
 .pro-guides2 img {
   width: 70%;
   height: auto;
+}
+
+.pro-guides2 img:hover {
+  opacity: 0.3;
 }
 
 footer {
