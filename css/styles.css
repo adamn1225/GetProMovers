@@ -78,7 +78,7 @@ li {
 }
 
 .top-img {
-  background-image: url('../images/family-moving.jpeg');
+  background-image: url('../images/family-Moving.jpeg');
   background-size: cover;
   height: 85vh;
 }
@@ -91,7 +91,9 @@ li {
 
 @media only screen and (max-width: 360px) {
   .top-img {
-    height: 120vh;
+    background-image: url('../images/moving.jpeg');
+    height: 140vh;
+    background-position: left;
   }
 }
 
