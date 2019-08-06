@@ -38,6 +38,16 @@ li {
   color: white;
 }
 
+.pro-logo a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.pro-logo a:active {
+  color: white;
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
   .pro-logo {
     font-size: 16px;
@@ -71,6 +81,10 @@ li {
   margin-bottom: 0px;
 }
 
+.pro-container {
+  padding-left: 8px !important;
+}
+
 @media only screen and (max-width: 600px) {
   .top-section {
     display: inline-block;
@@ -78,7 +92,7 @@ li {
 }
 
 .top-img {
-  background-image: url('../images/family-Moving.jpeg');
+  background-image: url('../images/family-moving.jpeg');
   background-size: cover;
   height: 85vh;
 }
@@ -115,13 +129,13 @@ li {
 @media only screen and (max-width: 600px) {
   #regForm {
     background-color: rgba(0, 0, 0, 0.70);
-    margin-top: 10px;
+    margin-top: 70px;
     margin-bottom: 40px;
     right: 0;
     font-family: Raleway;
     padding: 40px 20px 50px 49px;
     width: 40%;
-    min-width: 325px;
+    min-width: 342px;
   }
 }
 
@@ -204,7 +218,7 @@ button:hover {
   background-color: #267bea;
   color: white;
   height: 100%;
-  padding-bottom: 9%;
+  padding-bottom: 10%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -283,4 +297,37 @@ footer {
   border-radius: 6px;
   color:white;
   margin-bottom: 80px;
+}
+
+/* local and long distance moving */
+
+.pro-logo1 {
+  background: rgba(0, 0, 0, 0.70);
+  width: 100%;
+  position: relative;
+  z-index: 9999;
+  font-size: 28px;
+  padding: 40px 25px 50px 10px;
+  margin-left: 0px;
+}
+
+.pro-logo1>a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.pro-logo1 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .pro-logo1 {
+    font-size: 16px;
+  }
+}
+
+.moving-guides {
+  padding-top: 110px;
 }
